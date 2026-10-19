@@ -1,0 +1,309 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffff;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+h1 {
+    font-family: Elephant;
+    font-size: 28x;
+    line-height: 0.5;
+}
+
+h2 {
+    font-family: Elephant;
+    font-size: 24px;
+    line-height: 0.5;
+}
+
+.navbar {
+    background-color: white;
+    padding: 15px, 0;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 5;
+    margin: 5;
+    display: flex;
+}
+
+li {
+    margin-right: 15px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #40864f;;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 14px 20px;
+    border-radius: 5px;
+}
+
+a:hover {
+    color: white;
+    background-color: #5ba954;
+    transition: 0.3s;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #28432e;
+    width: 220px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 12px;
+    display: block;
+    border-radius: 0px;
+}
+
+.dropdown-content a:hover {
+    background-color: #70c368;
+}
+
+.Welcome {
+    display: flex;
+    background-color: #ffff;
+    flex-direction: row;
+    width: auto;
+}
+
+.FF {
+    color: #ffff;
+    font-size: 16px;
+    width: 450px;
+    padding: 10px;
+    position: absolute;
+    left: 2px;
+    top: 80px;
+    line-height: 0.5;
+}
+
+.FFimg {
+    background-color: #ffff;
+    width: auto;
+}
+
+.FFdetails {
+    font-size: 16px;
+    background-color: #ffff;
+    width: 750px;
+    position: absolute;
+    right: 0.1px;
+}
+
+.ShopGateway {
+    display: flex;
+    background-color: #e8e3e3;
+    flex-direction: row;
+    width: auto;
+    height: 650px;
+}
+
+.Recommended {
+    font-size: 24px;
+    font-family: Elephant;
+    text-align: center;
+    width: 600px;
+    padding: 10px;
+}
+
+.Featured {
+    background-color: #aeacac;
+    width: 400px;
+    height: 500px;
+    padding: 10px;
+    position: absolute;
+    left: 100px;
+}
+
+.text {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    position: absolute;
+    right: 1065px;
+    top: 900px;
+    text-decoration: none;
+}
+
+.Catagories_buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    line-height: 3;
+    position: absolute;
+    right: 10px;
+    bottom: 1px;
+}
+
+.Catagories_buttons a {
+    Background-color: #4b7955;
+    line-height: 0.2;
+    margin: 10px;
+    padding: 60px 30px;
+}
+
+.Catagories_buttons a:hover {
+    background-color: #5c9556;
+    transition: 0.4s;
+}
+
+.Catagories_text {
+    text-align: center;
+    line-height: 0.2;
+    position: absolute;
+    right: 240px;
+    bottom: 280px;
+}
+
+.Catagories {
+    line-height: 3;
+    position: absolute;
+    left: 650px;
+    top: 600px;
+    pointer-events: none;
+}
+
+.Catagories td {
+    padding-bottom: 5px;
+    padding-left: 80px;
+}
+
+.Header {
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    line-height: 0.5;
+}
+
+.Header h1 {
+    font-size: 36px;
+    margin: 0;
+    font-family: Elephant;
+}
+
+.Shop {
+    Max-width: auto;
+    width: 95%;
+    margin: auto;
+}
+
+.product-gallery {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.product-gallery .gallery-item {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.product-gallery .gallery-item img {
+    width: 250px;
+    height: 350px;
+    object-fit: contain;
+    border-radius: 10px;
+    padding: 0px 0;
+}
+
+.product-gallery .gallery-item p {
+    line-height: 0;
+}
+
+.product-gallery .gallery-item .product-title {
+    font-size: 20px;
+}
+
+.product-gallery .gallery-item .product-series {
+    font-size: 18px;
+}
+
+.product-gallery .gallery-item .product-price {
+    font-size: 14px;
+}
+
+.product-gallery .gallery-item a:hover{
+    transition: 0.3s;
+    background-color: #f9f6f6;
+}
+
+.recycling {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    background-color: #8bf77f;
+    padding: 10px;
+}
+
+.recycling_text {
+    font-size: 16px;
+    width: auto;
+}
+
+.recycling_image {
+    width: auto;
+}
+
+.contact {
+    background-color: #252525;
+    color: #fdfcfc;
+    height: auto;
+    width: auto;
+    padding: 10px
+}
+
+.theme {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding: 10px;
+}
+
+.Header_variant {
+    line-height: 1;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.purchase {
+    margin: 200px;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.purchase h1 {
+    font-size: 48px;
+}
+
+.purchase p {
+    font-size: 24px;
+}
